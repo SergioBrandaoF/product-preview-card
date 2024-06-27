@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 330px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#main-container {
+    width: 300px;
+}
+
+    #content > h1 {
+        font-weight: 800;
+        color: hsl(212, 21%, 14%);
+    }
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Fraunces';
+}
+
+#price {
+    display: flex;
+    flex-direction: row;
+}
+
+    #price > h1 {
+        color: hsl(158, 36%, 37%);
+    }
+
+    #price > p {
+        text-decoration: line-through;
+    }
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 320px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: medium;
+}
