@@ -14,19 +14,31 @@ body {
 }
 
 img {
-    width: 330px;
+    width: 340px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    padding: 0;
+    margin: 0;
 }
 
 #main-container {
-    width: 300px;
+    width: 340px;
+    margin-top: 20px;
+}
+
+#content {
+    padding: 20px;
 }
 
     #content > h1 {
         font-weight: 800;
         color: hsl(212, 21%, 14%);
     }
+
+#perfume {
+    letter-spacing: .3rem;
+    height: 6px;
+}
 
 p {
     color: hsl(228, 12%, 48%);
@@ -40,6 +52,8 @@ h1 {
 #price {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
 
     #price > h1 {
@@ -53,11 +67,16 @@ h1 {
 button {
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
-    padding: 20px;
-    width: 320px;
-    border-radius: 15px;
+    padding: 17px;
+    width: 300px;
+    margin: 0;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     font-weight: 700;
     font-size: medium;
+}
+
+@media screen and (min-width) {
+    
 }
